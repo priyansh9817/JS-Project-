@@ -1,35 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family:'poppins , sans-serif';
+    font-family: 'poppins , sans-serif';
 }
-body{
+
+body {
     background: #222;
 }
-.card{
+
+.card {
     width: 90%;
     max-width: 446px;
-    display: flex;
-    justify-content: center;
     background: linear-gradient(176deg, #8be711, transparent);
     margin: 100px auto 0;
-    border: 1px solid rgb(239, 126, 239);
+    padding: 40px 35px;
+    text-align: center;
+    color: #fff;
 }
-.search{
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
 }
-.search input{
+
+.search input {
     border: 0;
     outline: none;
-    background: #ebffce;
+    background: #ebfffc;
     color: black;
     border-radius: 44px;
     text-align: center;
     height: 60px;
     flex: 1;
     font-size: 18px;
+}
+
+.search button {
+    border: none;
+    outline: none;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 38px;
 }
