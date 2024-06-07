@@ -5,5 +5,31 @@
     font-family:'poppins , sans-serif';
 }
 body{
-    background-color: lineargradient(45deg, blue);
+    background: #222;
+}
+.card{
+    width: 90%;
+    max-width: 446px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(176deg, #8be711, transparent);
+    margin: 100px auto 0;
+    border: 1px solid rgb(239, 126, 239);
+}
+.search{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.search input{
+    border: 0;
+    outline: none;
+    background: #ebffce;
+    color: black;
+    border-radius: 44px;
+    text-align: center;
+    height: 60px;
+    flex: 1;
+    font-size: 18px;
 }
