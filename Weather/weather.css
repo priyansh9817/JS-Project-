@@ -32,11 +32,11 @@ body {
     outline: none;
     background: #ebfffc;
     color: black;
-    border-radius: 44px;
+    border-radius: 64px;
     text-align: center;
     height: 60px;
     flex: 1;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .search button {
@@ -44,8 +44,8 @@ body {
     outline: none;
     background: #ebfffc;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 80px;
     cursor: pointer;
 }
 
